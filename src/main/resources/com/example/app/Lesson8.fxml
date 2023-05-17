@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1530.0" style="-fx-background-color: #33FF33;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Lesson8Controller">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="667.0" prefWidth="1530.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="14.0" layoutY="610.0" />
+                <Separator disable="true" layoutX="857.0" layoutY="333.0" prefHeight="3.0" prefWidth="650.0" rotate="90.0" style="-fx-background-color: #000000;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+                <Separator disable="true" layoutX="203.0" layoutY="333.0" prefHeight="0.0" prefWidth="650.0" rotate="90.0" style="-fx-background-color: #000000;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+                <AnchorPane layoutX="1188.0" prefHeight="667.0" prefWidth="343.0" style="-fx-background-color: FFCC3F;">
+                    <children>
+                        <AnchorPane layoutX="12.0" layoutY="28.0" prefHeight="202.0" prefWidth="322.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF; -fx-background-radius: 15; -fx-border-radius: 15;">
+                            <children>
+                                <Label layoutX="87.0" layoutY="10.0" text="Форуми спільноти">
+                                    <font>
+                                        <Font name="Franklin Gothic Demi" size="24.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="34.0" fitWidth="38.0" layoutX="46.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/Message..png" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="14.0" layoutY="46.0" prefHeight="62.0" prefWidth="297.0" text="Ось кілька корисних посилань на найпопуля-&#10;рніші запитання, які ставлять програмісти &#10;щодо цієї вправи:">
+                                    <font>
+                                        <Font name="Franklin Gothic Book" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Separator disable="true" layoutX="15.0" layoutY="171.0" prefHeight="6.0" prefWidth="298.0">
+                                    <effect>
+                                        <DropShadow spread="0.6">
+                                            <color>
+                                                <Color red="1.0" green="0.800000011920929" blue="0.24705882370471954" />
+                                            </color>
+                                        </DropShadow>
+                                    </effect>
+                                </Separator>
+                                <Label layoutX="50.0" layoutY="132.0" prefHeight="35.0" prefWidth="214.0" text="Як ще можна використовувати &#10;функції як дані?&#10;">
+                                    <font>
+                                        <Font name="Franklin Gothic Medium" size="14.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="17.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/Question%20mark.png" />
+                                    </image>
+                                </ImageView>
+                                <Button fx:id="questionButton0" layoutX="274.0" layoutY="139.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: #FFA500; -fx-background-radius: 10;" text="▶">
+                                    <font>
+                                        <Font name="Franklin Gothic Demi" size="12.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="12.0" layoutY="385.0" prefHeight="266.0" prefWidth="322.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF; -fx-background-radius: 15; -fx-border-radius: 15;">
+                            <children>
+                                <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="33.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/pngegg.png" />
+                                    </image>
+                                </ImageView>
+                                <Button fx:id="videoButton" alignment="BASELINE_LEFT" layoutX="19.0" layoutY="197.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="287.0" style="-fx-background-color: #FF0000; -fx-border-color: #000000; -fx-background-radius: 40; -fx-border-radius: 40;" text="Перейти на відео">
+                                    <font>
+                                        <Font name="Franklin Gothic Demi" size="24.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <ImageView fitHeight="46.0" fitWidth="50.0" layoutX="246.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/Play.png" />
+                                    </image>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+                <Accordion layoutX="595.0" layoutY="379.0" />
+                <WebView fx:id="webView" layoutX="533.0" prefHeight="667.0" prefWidth="643.0" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="24.0" layoutY="8.0" text="LearnCode" textFill="WHITE">
+            <font>
+                <Font name="Bauhaus 93" size="54.0" />
+            </font>
+        </Label>
+        <Button fx:id="headButton" layoutX="407.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: #33FF33;" text="Головна">
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="547.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Каталог">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Веб-розробка" />
+                <MenuItem mnemonicParsing="false" text="Data Science" />
+                <MenuItem mnemonicParsing="false" text="Комп'ютерна наука" />
+                <MenuItem mnemonicParsing="false" text="Веб дизайн" />
+                <MenuItem mnemonicParsing="false" text="Кібербезпека" />
+                <MenuItem mnemonicParsing="false" text="Машинне навчання" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="699.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Ресурси">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Python" />
+                <MenuItem mnemonicParsing="false" text="JavaScript" />
+                <MenuItem mnemonicParsing="false" text="HTML i CSS" />
+                <MenuItem mnemonicParsing="false" text="SQL" />
+                <MenuItem mnemonicParsing="false" text="Java" />
+                <MenuItem mnemonicParsing="false" text="C++" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="854.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Спільнота">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Форуми" />
+                <MenuItem mnemonicParsing="false" text="Розділи" />
+                <MenuItem mnemonicParsing="false" text="Події" />
+                <MenuItem mnemonicParsing="false" text="Історії учнів" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="1014.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Ціноутворення">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Для фізичних осіб" />
+                <MenuItem mnemonicParsing="false" text="Для студентів" />
+                <MenuItem mnemonicParsing="false" text="Для команд" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <Button fx:id="forumButton" alignment="BASELINE_LEFT" layoutX="1414.0" layoutY="15.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="104.0" style="-fx-background-color: #4169E1;" text="Форум">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="1484.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/Forum.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="nextButton" alignment="TOP_CENTER" layoutX="1421.0" layoutY="746.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="96.0" style="-fx-background-color: FFCC3F;" text="Далі">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="25.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button fx:id="backButton" alignment="TOP_CENTER" layoutX="1305.0" layoutY="750.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #4169E1;" text="Назад">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="69.0" fitWidth="59.0" layoutX="1341.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/User.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <ScrollPane layoutY="70.0" prefHeight="667.0" prefWidth="523.0" style="-fx-background-color: silver;">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1388.0" prefWidth="507.0" style="-fx-background-color: silver;">
+                    <children>
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="28.0" prefWidth="232.0" text="ФУНКЦІЇ ВИЩОГО ПОРЯДКУ">
+                            <font>
+                                <Font name="Franklin Gothic Medium Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="30.0" prefHeight="39.0" prefWidth="168.0" text="Функції як дані">
+                            <font>
+                                <Font name="Franklin Gothic Demi" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="65.0" prefHeight="117.0" prefWidth="500.0" text="Функції JavaScript поводяться як будь-який інший тип даних у мові; &#10;ми можемо призначати функції змінним, і ми можемо перепризначати &#10;їх новим змінним.&#10;&#10;Нижче ми маємо надто довгу назву функції, яка погіршує читабельність &#10;будь-якого коду, у якому вона використовується.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="4.0" layoutY="258.0" prefHeight="74.0" prefWidth="486.0" text="Давайте уявимо, що ця функція виконує важливу роботу і потребує &#10;повторного виклику. Щоб перейменувати цю функцію, не жертвуючи &#10;вихідним кодом, ми можемо повторно призначити функцію змінній &#10;із відповідною короткою назвою:">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="41.0" layoutY="838.0" prefHeight="22.0" prefWidth="90.0" text="Інструкції:&#10;">
+                            <font>
+                                <Font name="Franklin Gothic Demi" size="18.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="15.0" layoutY="837.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/tick.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="74.0" layoutY="870.0" prefHeight="195.0" prefWidth="406.0" text="Ми визначили функцію з дуже довгою назвою: &#10;checkThatTwoPlusTwoEqualsFourAMillionTimes(). &#10;Для виконання цієї функції потрібно багато часу. &#10;Він перевіряє, чи 2 + 2 = 4, але робить це мільйон &#10;разів (просто для справжньої впевненості)!&#10;&#10;Використовуючи const, оголосите змінну з коротшою &#10;назвою, isTwoPlusTwo з якою буде легше працювати. &#10;Призначте checkThatTwoPlusTwoEqualsFourAMillionTimes&#10;його значення.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="34.0" layoutY="870.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/square.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="59.0" layoutY="871.0" text="1.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="80.0" layoutY="1108.0" prefHeight="26.0" prefWidth="378.0" text="Викличте свою isTwoPlusTwo() функцію.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="36.0" layoutY="1111.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/square.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="64.0" layoutY="1112.0" text="2.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="31.0" layoutY="1177.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/square.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="56.0" layoutY="1179.0" text="3.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="72.0" layoutY="1177.0" prefHeight="98.0" prefWidth="390.0" text="Хм, якщо ми забули оригінальну назву нашої функції. &#10;Чи є спосіб, яким ми можемо це зрозуміти?&#10;&#10;Використовуйте isTwoPlusTwoвластивість функції, &#10;яку ми console.log()призначили .nameisTwoPlusTwo">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <TitledPane expanded="false" layoutX="58.0" layoutY="1141.0" prefHeight="72.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="102.0" prefWidth="404.0">
+                                    <children>
+                                        <Label layoutX="21.0" layoutY="6.0" text="Щоб викликати вираз функції, напишіть ім’я змінної, у якій &#10;зберігається функція, а потім дужки.">
+                                            <font>
+                                                <Font name="Franklin Gothic Book" size="14.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                            <font>
+                                <Font name="Franklin Gothic Book" size="14.0" />
+                            </font>
+                        </TitledPane>
+                        <Label layoutX="8.0" layoutY="344.0" prefHeight="70.0" prefWidth="379.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="   const busy = announceThatIAmDoingImportantWork;&#10; &#10;   busy(); // This function call barely takes any space!">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="9.0" layoutY="421.0" prefHeight="190.0" prefWidth="504.0" text="busy це змінна, яка містить посилання на нашу вихідну функцію. Якби &#10;ми могли знайти адресу в пам’яті busy та адресу в пам’яті, &#10;announceThatIAmDoingImportantWork вони вказували б на одне й те &#10;саме місце. Нашу нову busy() функцію можна викликати за допомогою &#10;дужок, ніби це було ім’я, яке ми спочатку дали нашій функції.&#10;&#10;Зверніть увагу, як ми присвоюємо &#10;announceThatIAmDoingImportantWork значення змінній без &#10;дужок busy. Ми хочемо призначити значення самої функції, &#10;а не значення, яке вона повертає під час виклику.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="186.0" prefHeight="70.0" prefWidth="390.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="   const announceThatIAmDoingImportantWork = () =&gt; {&#10;    console.log(&quot;I’m doing very important work!&quot;);&#10;  };">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                  <Label layoutX="9.0" layoutY="618.0" prefHeight="211.0" prefWidth="498.0" text="У JavaScript функції є об’єктами першого класу . Це означає, що, як і &#10;інші об’єкти, з якими ви стикалися, функції JavaScript можуть мати &#10;властивості та методи.&#10;&#10;Оскільки функції є типом об’єкта, вони мають такі властивості, як &#10;.lengthі .name, і такі методи, як .toString(). Ви можете побачити більше &#10;про методи та властивості функцій у документації .&#10;&#10;Функції є особливими, оскільки ми можемо їх викликати, але ми &#10;можемо обробляти їх як будь-який інший тип даних. Давайте &#10;потренуємося це робити!">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <TitledPane expanded="false" layoutX="57.0" layoutY="1065.0" prefHeight="72.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="102.0" prefWidth="404.0">
+                           <children>
+                              <Label layoutX="21.0" layoutY="6.0" text="Ви створили нову змінну isTwoPlusTwo? Що ви повинні &#10;призначити як значення цієї змінної?">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <font>
+                        <Font name="Franklin Gothic Book" size="14.0" />
+                     </font>
+                  </TitledPane>
+                  <TitledPane expanded="false" layoutX="61.0" layoutY="1275.0" prefHeight="89.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="102.0" prefWidth="404.0">
+                           <children>
+                              <Label layoutX="21.0" layoutY="6.0" text="Доступ до власності nameisTwoPlusTwo . _ Як і з будь-яким &#10;об’єктом, ви можете використовувати оператор крапки &#10;для доступу до властивості функції: functionName.name.">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <font>
+                        <Font name="Franklin Gothic Book" size="14.0" />
+                     </font>
+                  </TitledPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <Label layoutX="842.0" layoutY="737.0" prefHeight="39.0" prefWidth="59.0" text="1/4">
+            <font>
+                <Font name="Franklin Gothic Demi" size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

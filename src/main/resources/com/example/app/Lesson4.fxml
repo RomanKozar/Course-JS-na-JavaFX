@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1530.0" style="-fx-background-color: #33FF33;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Lesson4Controller">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="667.0" prefWidth="1530.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="14.0" layoutY="610.0" />
+                <Separator disable="true" layoutX="857.0" layoutY="333.0" prefHeight="3.0" prefWidth="650.0" rotate="90.0" style="-fx-background-color: #000000;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+                <Separator disable="true" layoutX="203.0" layoutY="333.0" prefHeight="0.0" prefWidth="650.0" rotate="90.0" style="-fx-background-color: #000000;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+                <AnchorPane layoutX="1188.0" prefHeight="667.0" prefWidth="343.0" style="-fx-background-color: FFCC3F;">
+                    <children>
+                        <AnchorPane layoutX="12.0" layoutY="28.0" prefHeight="202.0" prefWidth="322.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF; -fx-background-radius: 15; -fx-border-radius: 15;">
+                            <children>
+                                <Label layoutX="87.0" layoutY="10.0" text="Форуми спільноти">
+                                    <font>
+                                        <Font name="Franklin Gothic Demi" size="24.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="34.0" fitWidth="38.0" layoutX="46.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/Message..png" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="14.0" layoutY="46.0" prefHeight="62.0" prefWidth="297.0" text="Ось кілька корисних посилань на найпопуля-&#10;рніші запитання, які ставлять програмісти &#10;щодо цієї вправи:">
+                                    <font>
+                                        <Font name="Franklin Gothic Book" size="15.0" />
+                                    </font>
+                                </Label>
+                                <Separator disable="true" layoutX="15.0" layoutY="171.0" prefHeight="6.0" prefWidth="298.0">
+                                    <effect>
+                                        <DropShadow spread="0.6">
+                                            <color>
+                                                <Color red="1.0" green="0.800000011920929" blue="0.24705882370471954" />
+                                            </color>
+                                        </DropShadow>
+                                    </effect>
+                                </Separator>
+                                <Label layoutX="50.0" layoutY="120.0" prefHeight="47.0" prefWidth="213.0" text="Залишилися запитання? &#10;Перегляньте гілку цієї вправи &#10;в Форуми LearnCode.&#10;">
+                                    <font>
+                                        <Font name="Franklin Gothic Medium" size="14.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="17.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/Question%20mark.png" />
+                                    </image>
+                                </ImageView>
+                                <Button fx:id="questionButton0" layoutX="274.0" layoutY="131.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: #FFA500; -fx-background-radius: 10;" text="▶">
+                                    <font>
+                                        <Font name="Franklin Gothic Demi" size="12.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane layoutX="12.0" layoutY="385.0" prefHeight="266.0" prefWidth="322.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF; -fx-background-radius: 15; -fx-border-radius: 15;">
+                            <children>
+                                <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="33.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/pngegg.png" />
+                                    </image>
+                                </ImageView>
+                                <Button fx:id="videoButton" alignment="BASELINE_LEFT" layoutX="19.0" layoutY="197.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="287.0" style="-fx-background-color: #FF0000; -fx-border-color: #000000; -fx-background-radius: 40; -fx-border-radius: 40;" text="Перейти на відео">
+                                    <font>
+                                        <Font name="Franklin Gothic Demi" size="24.0" />
+                                    </font>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </Button>
+                                <ImageView fitHeight="46.0" fitWidth="50.0" layoutX="246.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@assets/Play.png" />
+                                    </image>
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                </ImageView>
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+                <Accordion layoutX="595.0" layoutY="379.0" />
+                <WebView fx:id="webView" layoutX="533.0" prefHeight="667.0" prefWidth="643.0" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="24.0" layoutY="8.0" text="LearnCode" textFill="WHITE">
+            <font>
+                <Font name="Bauhaus 93" size="54.0" />
+            </font>
+        </Label>
+        <Button fx:id="headButton" layoutX="407.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: #33FF33;" text="Головна">
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="547.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Каталог">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Веб-розробка" />
+                <MenuItem mnemonicParsing="false" text="Data Science" />
+                <MenuItem mnemonicParsing="false" text="Комп'ютерна наука" />
+                <MenuItem mnemonicParsing="false" text="Веб дизайн" />
+                <MenuItem mnemonicParsing="false" text="Кібербезпека" />
+                <MenuItem mnemonicParsing="false" text="Машинне навчання" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="699.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Ресурси">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Python" />
+                <MenuItem mnemonicParsing="false" text="JavaScript" />
+                <MenuItem mnemonicParsing="false" text="HTML i CSS" />
+                <MenuItem mnemonicParsing="false" text="SQL" />
+                <MenuItem mnemonicParsing="false" text="Java" />
+                <MenuItem mnemonicParsing="false" text="C++" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="854.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Спільнота">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Форуми" />
+                <MenuItem mnemonicParsing="false" text="Розділи" />
+                <MenuItem mnemonicParsing="false" text="Події" />
+                <MenuItem mnemonicParsing="false" text="Історії учнів" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="1014.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Ціноутворення">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Для фізичних осіб" />
+                <MenuItem mnemonicParsing="false" text="Для студентів" />
+                <MenuItem mnemonicParsing="false" text="Для команд" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <Button fx:id="forumButton" alignment="BASELINE_LEFT" layoutX="1414.0" layoutY="15.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="104.0" style="-fx-background-color: #4169E1;" text="Форум">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="1484.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/Forum.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="nextButton" alignment="TOP_CENTER" layoutX="1421.0" layoutY="746.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="96.0" style="-fx-background-color: FFCC3F;" text="Далі">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="25.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <Button fx:id="backButton" alignment="TOP_CENTER" layoutX="1305.0" layoutY="750.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #4169E1;" text="Назад">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="22.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ScrollPane layoutY="70.0" prefHeight="668.0" prefWidth="523.0" style="-fx-background-color: silver;">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1281.0" prefWidth="507.0" style="-fx-background-color: silver;">
+                    <children>
+                        <Label layoutX="8.0" layoutY="5.0" prefHeight="28.0" prefWidth="74.0" text="ФУНКЦІЇ">
+                            <font>
+                                <Font name="Franklin Gothic Medium Italic" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="30.0" prefHeight="39.0" prefWidth="235.0" text="Оголошення функцій">
+                            <font>
+                                <Font name="Franklin Gothic Demi" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="8.0" layoutY="68.0" prefHeight="96.0" prefWidth="498.0" text="У JavaScript є багато способів створити функцію . Одним із способів &#10;створення функції є використання оголошення функції . Подібно до &#10;того, як оголошення змінної прив’язує значення до імені змінної, &#10;оголошення функції прив’язує функцію до імені або ідентифікатора . &#10;Подивіться на анатомію оголошення функції нижче:">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="341.0" prefHeight="282.0" prefWidth="486.0" text="Оголошення функції складається з:&#10;&#10;Ключове functionслово.&#10;Ім'я функції або її ідентифікатор із круглими дужками.&#10;Тіло функції або блок інструкцій, необхідних для виконання певного &#10;завдання, укладений у фігурні дужки функції { }.&#10;Оголошення функції — це функція, прив’язана до ідентифікатора &#10;або імені. У наступній вправі ми розглянемо, як запустити код &#10;всередині тіла функції.&#10;&#10;Ми також повинні знати про функцію підйому в JavaScript, яка &#10;дозволяє отримати доступ до оголошень функцій до їх визначення.&#10;&#10;Подивіться на приклад підйому:">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="43.0" layoutY="804.0" prefHeight="22.0" prefWidth="90.0" text="Інструкції:&#10;">
+                            <font>
+                                <Font name="Franklin Gothic Demi" size="18.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="17.0" layoutY="803.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/tick.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="77.0" layoutY="832.0" prefHeight="59.0" prefWidth="386.0" text="Давайте створимо функцію, яка виводить нагадування &#10;на консоль. Використовуючи оголошення функції, &#10;створіть функцію під назвою getReminder().">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="37.0" layoutY="833.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/square.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="62.0" layoutY="834.0" text="1.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="80.0" layoutY="941.0" prefHeight="46.0" prefWidth="378.0" text="У тілі функції getReminder()введіть таке нагадування &#10;на консоль:' Water the plants.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="36.0" layoutY="944.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/square.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="64.0" layoutY="945.0" text="2.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="31.0" layoutY="1050.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@assets/square.png" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="56.0" layoutY="1052.0" text="3.">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="72.0" layoutY="1049.0" prefHeight="101.0" prefWidth="390.0" text="Давайте створимо ще одну функцію, яка виводить &#10;на консоль корисну іспанську фразу для подорожей.&#10;&#10;Використовуючи оголошення функції, створіть функцію &#10;під назвою greetInSpanish().">
+                            <font>
+                                <Font name="Franklin Gothic Book" size="16.0" />
+                            </font>
+                        </Label>
+                        <TitledPane expanded="false" layoutX="42.0" layoutY="1168.0" prefHeight="101.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="103.0" prefWidth="405.0">
+                                    <children>
+                                        <Label layoutX="14.0" layoutY="3.0" prefHeight="22.0" prefWidth="356.0" text="Синтаксис для оголошення функції:">
+                                            <font>
+                                                <Font name="Franklin Gothic Book" size="16.0" />
+                                            </font>
+                                        </Label>
+                              <Label layoutX="14.0" layoutY="29.0" prefHeight="39.0" prefWidth="218.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="      function functionName() {}">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="16.0" />
+                                 </font>
+                              </Label>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                            <font>
+                                <Font name="Franklin Gothic Book" size="14.0" />
+                            </font>
+                        </TitledPane>
+                        <TitledPane expanded="false" layoutX="44.0" layoutY="990.0" prefHeight="178.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="102.0" prefWidth="404.0">
+                                    <children>
+                                        <Label layoutX="21.0" layoutY="6.0" text="Щоб написати в консоль:">
+                                            <font>
+                                                <Font name="Franklin Gothic Book" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="14.0" layoutY="26.0" prefHeight="34.0" prefWidth="258.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="    console.log('Insert Message Here');">
+                                            <font>
+                                                <Font name="Franklin Gothic Book" size="16.0" />
+                                            </font>
+                                        </Label>
+                              <Label layoutX="21.0" layoutY="65.0" prefHeight="16.0" prefWidth="273.0" text="Додайте свій код між фігурними дужками:">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="14.0" layoutY="85.0" prefHeight="59.0" prefWidth="258.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="    function functionName() { &#10;  //  Code body between curly braces&#10;  }">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="16.0" />
+                                 </font>
+                              </Label>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                            <font>
+                                <Font name="Franklin Gothic Book" size="14.0" />
+                            </font>
+                        </TitledPane>
+                        <TitledPane expanded="false" layoutX="47.0" layoutY="892.0" prefHeight="100.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                            <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="88.0" prefWidth="405.0">
+                                    <children>
+                                        <Label layoutX="17.0" layoutY="7.0" prefHeight="18.0" prefWidth="356.0" text="Синтаксис для оголошення функції:">
+                                            <font>
+                                                <Font name="Franklin Gothic Book" size="14.0" />
+                                            </font>
+                                        </Label>
+                                        <Label layoutX="15.0" layoutY="29.0" prefHeight="39.0" prefWidth="218.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="      function functionName() {}">
+                                            <font>
+                                                <Font name="Franklin Gothic Book" size="16.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </content>
+                            <font>
+                                <Font name="Franklin Gothic Book" size="14.0" />
+                            </font>
+                        </TitledPane>
+                  <ImageView fitHeight="185.0" fitWidth="337.0" layoutX="98.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/declaration.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="8.0" layoutY="623.0" prefHeight="114.0" prefWidth="270.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="  greetWorld(); // Output: Hello, World!&#10; &#10;  function greetWorld() {&#10;  console.log('Hello, World!');&#10;  }">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="8.0" layoutY="740.0" prefHeight="62.0" prefWidth="498.0" text="Зверніть увагу, як hoisting можна greetWorld()було викликати до &#10;greetWorld()визначення функції! Оскільки підйом не вважається &#10;хорошою практикою, ми просто хочемо, щоб ви знали про цю функцію.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <ImageView fitHeight="69.0" fitWidth="59.0" layoutX="1341.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/User.png" />
+            </image>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </ImageView>
+        <Label layoutX="842.0" layoutY="737.0" prefHeight="39.0" prefWidth="59.0" text="1/4">
+            <font>
+                <Font name="Franklin Gothic Demi" size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

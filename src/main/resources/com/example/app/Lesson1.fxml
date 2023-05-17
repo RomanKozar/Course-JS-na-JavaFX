@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1530.0" style="-fx-background-color: #33FF33;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app.Lesson1Controller">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="667.0" prefWidth="1530.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Label layoutX="14.0" layoutY="610.0" />
+                <Separator disable="true" layoutX="857.0" layoutY="333.0" prefHeight="3.0" prefWidth="650.0" rotate="90.0" style="-fx-background-color: #000000;">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Separator>
+            <Separator disable="true" layoutX="203.0" layoutY="333.0" prefHeight="0.0" prefWidth="650.0" rotate="90.0" style="-fx-background-color: #000000;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Separator>
+            <AnchorPane layoutX="1188.0" prefHeight="667.0" prefWidth="343.0" style="-fx-background-color: FFCC3F;">
+               <children>
+                  <AnchorPane layoutX="12.0" layoutY="28.0" prefHeight="265.0" prefWidth="322.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF; -fx-background-radius: 15; -fx-border-radius: 15;">
+                     <children>
+                        <Label layoutX="87.0" layoutY="10.0" text="Форуми спільноти">
+                           <font>
+                              <Font name="Franklin Gothic Demi" size="24.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="34.0" fitWidth="38.0" layoutX="46.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/Message..png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="14.0" layoutY="46.0" prefHeight="62.0" prefWidth="297.0" text="Ось кілька корисних посилань на найпопуля-&#10;рніші запитання, які ставлять програмісти &#10;щодо цієї вправи:">
+                           <font>
+                              <Font name="Franklin Gothic Book" size="15.0" />
+                           </font>
+                        </Label>
+                        <Separator disable="true" layoutX="15.0" layoutY="142.0" prefHeight="6.0" prefWidth="298.0">
+                           <effect>
+                              <DropShadow spread="0.6">
+                                 <color>
+                                    <Color red="1.0" green="0.800000011920929" blue="0.24705882370471954" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Separator>
+                        <Label layoutX="50.0" layoutY="120.0" prefHeight="18.0" prefWidth="197.0" text="Javascript чутливий до регістру?&#10;">
+                           <font>
+                              <Font name="Franklin Gothic Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="17.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/Question%20mark.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="questionButton0" layoutX="274.0" layoutY="117.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: #FFA500; -fx-background-radius: 10;" text="▶">
+                           <font>
+                              <Font name="Franklin Gothic Demi" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Separator disable="true" layoutX="15.0" layoutY="192.0" prefHeight="6.0" prefWidth="298.0">
+                           <effect>
+                              <DropShadow spread="0.6">
+                                 <color>
+                                    <Color red="1.0" green="0.800000011920929" blue="0.24705882370471954" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Separator>
+                        <Label layoutX="49.0" layoutY="158.0" prefHeight="34.0" prefWidth="218.0" text="Чи потрібно використовувати &#10;крапку з комою?&#10;">
+                           <font>
+                              <Font name="Franklin Gothic Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="17.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/Question%20mark.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="questionButton1" layoutX="274.0" layoutY="166.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: #FFA500; -fx-background-radius: 10;" text="▶">
+                           <font>
+                              <Font name="Franklin Gothic Demi" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Separator disable="true" layoutX="15.0" layoutY="237.0" prefHeight="6.0" prefWidth="298.0">
+                           <effect>
+                              <DropShadow spread="0.6">
+                                 <color>
+                                    <Color red="1.0" green="0.800000011920929" blue="0.24705882370471954" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Separator>
+                        <Label layoutX="49.0" layoutY="202.0" prefHeight="34.0" prefWidth="218.0" text="Яка різниця між document.write і &#10;console.log?&#10;">
+                           <font>
+                              <Font name="Franklin Gothic Medium" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="28.0" fitWidth="26.0" layoutX="17.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/Question%20mark.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="questionButton2" layoutX="274.0" layoutY="211.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="34.0" style="-fx-background-color: #FFA500; -fx-background-radius: 10;" text="▶">
+                           <font>
+                              <Font name="Franklin Gothic Demi" size="12.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="12.0" layoutY="385.0" prefHeight="266.0" prefWidth="322.0" style="-fx-border-color: #000000; -fx-background-color: #FFFFFF; -fx-background-radius: 15; -fx-border-radius: 15;">
+                     <children>
+                        <ImageView fitHeight="172.0" fitWidth="267.0" layoutX="33.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/pngegg.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="videoButton" alignment="BASELINE_LEFT" layoutX="19.0" layoutY="197.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="287.0" style="-fx-background-color: #FF0000; -fx-border-color: #000000; -fx-background-radius: 40; -fx-border-radius: 40;" text="Перейти на відео">
+                           <font>
+                              <Font name="Franklin Gothic Demi" size="24.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <ImageView fitHeight="46.0" fitWidth="50.0" layoutX="246.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@assets/Play.png" />
+                           </image>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Accordion layoutX="595.0" layoutY="379.0" />
+            <WebView fx:id="webView" layoutX="533.0" prefHeight="667.0" prefWidth="643.0" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="24.0" layoutY="8.0" text="LearnCode" textFill="WHITE">
+            <font>
+                <Font name="Bauhaus 93" size="54.0" />
+            </font>
+        </Label>
+        <Button fx:id="headButton" layoutX="407.0" layoutY="18.0" mnemonicParsing="false" style="-fx-background-color: #33FF33;" text="Головна">
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="547.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Каталог">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Веб-розробка" />
+                <MenuItem mnemonicParsing="false" text="Data Science" />
+                <MenuItem mnemonicParsing="false" text="Комп'ютерна наука" />
+                <MenuItem mnemonicParsing="false" text="Веб дизайн" />
+                <MenuItem mnemonicParsing="false" text="Кібербезпека" />
+                <MenuItem mnemonicParsing="false" text="Машинне навчання" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="699.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Ресурси">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Python" />
+                <MenuItem mnemonicParsing="false" text="JavaScript" />
+                <MenuItem mnemonicParsing="false" text="HTML i CSS" />
+                <MenuItem mnemonicParsing="false" text="SQL" />
+                <MenuItem mnemonicParsing="false" text="Java" />
+                <MenuItem mnemonicParsing="false" text="C++" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="854.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Спільнота">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Форуми" />
+                <MenuItem mnemonicParsing="false" text="Розділи" />
+                <MenuItem mnemonicParsing="false" text="Події" />
+                <MenuItem mnemonicParsing="false" text="Історії учнів" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <MenuButton contentDisplay="TEXT_ONLY" layoutX="1014.0" layoutY="18.0" mnemonicParsing="false" popupSide="TOP" style="-fx-background-color: #33FF33;" text="Ціноутворення">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Для фізичних осіб" />
+                <MenuItem mnemonicParsing="false" text="Для студентів" />
+                <MenuItem mnemonicParsing="false" text="Для команд" />
+            </items>
+            <font>
+                <Font name="Franklin Gothic Demi" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </MenuButton>
+        <Button fx:id="forumButton" alignment="BASELINE_LEFT" layoutX="1414.0" layoutY="15.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="38.0" prefWidth="104.0" style="-fx-background-color: #4169E1;" text="Форум">
+            <font>
+                <Font name="Franklin Gothic Demi Cond" size="19.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <ImageView fitHeight="35.0" fitWidth="26.0" layoutX="1484.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/Forum.png" />
+            </image>
+        </ImageView>
+      <Button fx:id="nextButton" alignment="TOP_CENTER" layoutX="1421.0" layoutY="746.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="96.0" style="-fx-background-color: FFCC3F;" text="Далі">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="25.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backButton" alignment="TOP_CENTER" layoutX="1305.0" layoutY="750.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #4169E1;" text="Назад">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ScrollPane layoutY="70.0" prefHeight="667.0" prefWidth="523.0" style="-fx-background-color: silver;">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1031.0" prefWidth="507.0" style="-fx-background-color: silver;">
+               <children>
+                  <Label layoutX="8.0" layoutY="5.0" prefHeight="28.0" prefWidth="182.0" text="Введення в JavaScript">
+                     <font>
+                        <Font name="Franklin Gothic Medium Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="30.0" prefHeight="39.0" prefWidth="96.0" text="Консоль">
+                     <font>
+                        <Font name="Franklin Gothic Demi" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="8.0" layoutY="67.0" prefHeight="99.0" prefWidth="497.0" text="Консоль — це панель, на якій відображаються важливі для &#10;розробників повідомлення, як-от помилки. Значна частина роботи, яку &#10;комп’ютер виконує з нашим кодом, невидима для нас за умовчанням. &#10;Якщо ми хочемо, щоб щось з’являлося на нашому екрані, ми можемо &#10;надрукувати або зареєструвати безпосередньо на нашій консолі.&#10;">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="178.0" prefHeight="78.0" prefWidth="487.0" text="У JavaScript consoleключове слово відноситься до об’єкта, набору &#10;даних і дій, які ми можемо використовувати в нашому коді. Ключові &#10;слова – це слова, вбудовані в мову JavaScript, тому комп’ютер &#10;розпізнає їх і обробляє спеціально.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="267.0" prefHeight="114.0" prefWidth="493.0" text="Одна дія або метод, вбудована в consoleоб’єкт, є .log()методом. Коли &#10;ми пишемо, console.log()те, що ми поміщаємо в дужки, буде &#10;надруковано або зареєстровано на консолі.&#10;&#10;Нам буде дуже корисно друкувати значення на консолі, щоб ми могли &#10;бачити роботу, яку ми робимо.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="396.0" prefHeight="39.0" prefWidth="298.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="    console.log(5);" textAlignment="CENTER">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="8.0" layoutY="443.0" prefHeight="114.0" prefWidth="485.0" text="У цьому прикладі здійснюється вхід 5 на консоль. Крапка з комою &#10;позначає кінець рядка або оператора. Хоча в JavaScript ваш код &#10;зазвичай виконується за призначенням без крапки з комою, ми &#10;рекомендуємо вивчити звичку закінчувати кожен оператор крапкою &#10;з комою, щоб ніколи не пропускати її в кількох випадках, коли &#10;вони потрібні.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="6.0" layoutY="568.0" prefHeight="40.0" prefWidth="479.0" text="Пізніше ви побачите, що ми можемо використовувати console.log()&#10;для друку різних типів даних.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="627.0" prefHeight="22.0" prefWidth="90.0" text="Інструкції:&#10;">
+                     <font>
+                        <Font name="Franklin Gothic Demi" size="18.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="12.0" layoutY="627.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/tick.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="86.0" layoutY="660.0" prefHeight="94.0" prefWidth="378.0" text="Використовуйте console.log код у редакторі, &#10;щоб зареєструвати свій вік на консолі.&#10;&#10;Запустіть код, коли будете готові &#10;побачити результат.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="47.0" layoutY="659.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/square.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="70.0" layoutY="660.0" text="1.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="87.0" layoutY="820.0" prefHeight="62.0" prefWidth="378.0" text="У наступному рядку напишіть інший, console.log&#10;щоб вивести інше число, що відповідає кількості &#10;тижнів, які ви програмували.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="48.0" layoutY="822.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@assets/square.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="71.0" layoutY="823.0" text="2.">
+                     <font>
+                        <Font name="Franklin Gothic Book" size="16.0" />
+                     </font>
+                  </Label>
+                <TitledPane expanded="false" layoutX="54.0" layoutY="772.0" prefHeight="118.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="102.0" prefWidth="404.0">
+                           <children>
+                              <Label layoutX="23.0" layoutY="14.0" text="Введіть свій вік у дужках console.log():">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="18.0" layoutY="46.0" prefHeight="39.0" prefWidth="298.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="    console.log(99);" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <font>
+                        <Font name="Franklin Gothic Book" size="14.0" />
+                     </font>
+                </TitledPane>
+                  <TitledPane expanded="false" layoutX="54.0" layoutY="900.0" prefHeight="126.0" prefWidth="406.0" text="Застряг? Отримай підказку">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="102.0" prefWidth="404.0">
+                           <children>
+                              <Label layoutX="21.0" layoutY="6.0" text="У круглих дужках введіть число, яке означає кількість &#10;тижнів, які ви програмували console.log():">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="18.0" layoutY="51.0" prefHeight="34.0" prefWidth="298.0" style="-fx-background-color: FFCC3F; -fx-background-radius: 5; -fx-border-color: #000000; -fx-border-radius: 5;" text="    console.log(60);" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Franklin Gothic Book" size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                     <font>
+                        <Font name="Franklin Gothic Book" size="14.0" />
+                     </font>
+                  </TitledPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="69.0" fitWidth="59.0" layoutX="1341.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/User.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Label layoutX="842.0" layoutY="737.0" prefHeight="39.0" prefWidth="59.0" text="1/10">
+         <font>
+            <Font name="Franklin Gothic Demi" size="24.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
